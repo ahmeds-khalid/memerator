@@ -80,4 +80,4 @@ async def meme_error(ctx, error):
     if isinstance(error, commands.CommandOnCooldown):
         await ctx.send(f"Slow down! Try again in {error.retry_after:.0f} seconds.")
 
-bot.run('MTI2NzIwMTM0MzA2MDQ0NzI2Mg.GsCdjJ.GkjeG5I-Br6g1-rhzxpJ5fZ0RT8Cnvcvi5p8pk')
+bot.run(Token)
